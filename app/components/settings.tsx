@@ -342,6 +342,7 @@ export function Settings() {
             </Popover>
           </ListItem>
 
+          {/*
           <ListItem
             title={Locale.Settings.Update.Version(currentVersion ?? "unknown")}
             subTitle={
@@ -385,6 +386,7 @@ export function Settings() {
             </select>
           </ListItem>
 
+          */}
           <ListItem title={Locale.Settings.Theme}>
             <select
               value={config.theme}
