@@ -533,9 +533,11 @@ export function Settings() {
               />
             )}
           </ListItem>
+          
+         */}
         </List>
         
-        */}
+      
 
         <List>
           <ListItem
