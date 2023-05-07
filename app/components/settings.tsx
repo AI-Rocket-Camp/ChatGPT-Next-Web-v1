@@ -472,6 +472,7 @@ export function Settings() {
           </ListItem>
         </List>
 
+        {/*
         <List>
           {enabledAccessControl ? (
             <ListItem
@@ -531,6 +532,8 @@ export function Settings() {
             )}
           </ListItem>
         </List>
+        
+        */}
 
         <List>
           <ListItem
