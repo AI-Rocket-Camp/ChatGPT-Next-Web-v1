@@ -472,7 +472,7 @@ export function Settings() {
           </ListItem>
         </List>
 
-        {/*
+       
         <List>
           {enabledAccessControl ? (
             <ListItem
@@ -492,6 +492,8 @@ export function Settings() {
             <></>
           )}
 
+           {/*
+           
           {!accessStore.hideUserApiKey ? (
             <ListItem
               title={Locale.Settings.Token.Title}
