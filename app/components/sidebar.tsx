@@ -100,7 +100,7 @@ export function SideBar(props: { className?: string }) {
           <a href="https://www.hongce-tech.com">AI火箭营</a>
         </div>
         <div className={styles["sidebar-sub-title"]}>
-          让更多的中国人应用GPT提高效率
+          OpenAI企业版API合作伙伴，速度飞快！
         </div>
         <div className={styles["sidebar-logo"] + " no-dark"}>
           <ChatGptIcon />
