@@ -106,7 +106,18 @@ export function SideBar(props: { className?: string }) {
           <ChatGptIcon />
         </div>
       </div>
-
+     
+      <div className={styles["qrcode-wrapper"]}>
+      <img
+        src="/qrcode.png"
+        alt="微信二维码"
+        className={styles["qrcode-image"]}
+      />
+      <div className={styles["qrcode-text"]}>
+        获取访问码或商业合作请扫微信
+      </div>
+    </div>
+      
       <div className={styles["sidebar-header-bar"]}>
         <IconButton
           icon={<MaskIcon />}
