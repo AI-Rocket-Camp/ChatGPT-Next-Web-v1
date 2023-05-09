@@ -570,3 +570,23 @@
   height: 100%;
   width: 100%;
 }
+
+.qrcode-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.qrcode-image {
+  width: 150px;
+  height: 150px;
+}
+
+.qrcode-text {
+  font-size: 14px;
+  color: #666;
+  margin-top: 10px;
+}
+
